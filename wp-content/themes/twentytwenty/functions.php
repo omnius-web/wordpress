@@ -31,6 +31,7 @@
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
+
 function twentytwenty_theme_support() {
 
 	// Add default posts and comments RSS feed links to head.
