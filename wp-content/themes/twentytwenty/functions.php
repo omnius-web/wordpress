@@ -31,6 +31,8 @@
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
+include $_SERVER['DOCUMENT_ROOT'].'/wordpress/models/omnius.php';
+
 
 
 function twentytwenty_theme_support() {
